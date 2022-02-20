@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation</title>
+    <link rel="shortcut icon" href="https://icon-library.com/images/m-icon/m-icon-7.jpg" />
+    <script>
+         function backgr(){
+        var images = ['images/image1.jpg', 'images/image3.jpg', 'images/image4.png', 'images/image5.webp'];
+        var randimg = Math.floor(Math.random()*4);
+        document.body.background = images[randimg];
+        }
+    </script>
+   
+  
+    <link rel="stylesheet" href="main.css">
+</head>
+<body onload="backgr()">
+
+   
+
+    <h1>4-7-8 Breathing Exercise</h1>
+    <div class="container" id="container">
+        <div class="circle"></div>
+        <p id="text"></p>
+
+        <div class="pointer-container">
+            <span class="pointer"></span>
+        </div>
+
+        <div class="gradient"></div>
+        
+    </div>
+    
+        <audio autoplay controls>
+            <source src="music.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        <script src="main.js"></script>
+    
+    
+    
+</body>
+</html>
